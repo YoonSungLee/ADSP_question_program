@@ -18,19 +18,15 @@ exam() 함수는 모든 문제에서 복원추출로 문제를 뽑아 무한적�
 
 ### exam_all()
 
-<img src="https://i.imgur.com/DtBHew6.png" width="100%">
-exam_all() 함수는 모든 문제에서 비복원추출로 문제를 뽑아 한 번씩 문제를 푸는 형식으로 코드를 구현했다.
+<img src="https://i.imgur.com/DtBHew6.png" width="100%"> exam_all() 함수는 모든 문제에서 비복원추출로 문제를 뽑아 한 번씩 문제를 푸는 형식으로 코드를 구현했다.
 
 ### Implement
 
-<img src="https://i.imgur.com/xsJBHgA.png" width="100%">
-해당 문제를 맞추면 위 그림과 같이 '정답'으로 표기되고 다음 문제로 넘어간다.
+<img src="https://i.imgur.com/xsJBHgA.png" width="100%"> 해당 문제를 맞추면 위 그림과 같이 '정답'으로 표기되고 다음 문제로 넘어간다.
 
-<img src="https://i.imgur.com/3cwTTfG.png" width="100%">
-해당 문제를 못맞추면 위 그림과 같이 '오답, 다시 입력하세요'로 표기되고 다시 문제를 풀 기회를 준다.
+<img src="https://i.imgur.com/3cwTTfG.png" width="100%"> 해당 문제를 못맞추면 위 그림과 같이 '오답, 다시 입력하세요'로 표기되고 다시 문제를 풀 기회를 준다.
 
-<img src="https://i.imgur.com/Nsd32k5.png" width="100%">
-해당 문제에 대한 정답을 모른다면, 'pass'를 입력할 수 있다. pass를 입력하면 위 그림과 같이 정답을 알려주고 문제가 넘어간다(have to check 아래에서 확인 가능). 특히 exam_all() 함수를 실행할 경우, pass로 넘어간 문제는 해결한 문제에 카운트되지 않으며 나중에 다시 랜덤으로 문제가 등장한다.
+<img src="https://i.imgur.com/Nsd32k5.png" width="100%"> 해당 문제에 대한 정답을 모른다면, 'pass'를 입력할 수 있다. pass를 입력하면 위 그림과 같이 정답을 알려주고 문제가 넘어간다(have to check 아래에서 확인 가능). 특히 exam_all() 함수를 실행할 경우, pass로 넘어간 문제는 해결한 문제에 카운트되지 않으며 나중에 다시 랜덤으로 문제가 등장한다.
 
 <img src="https://i.imgur.com/nRcGNnN.png" width="100%">
 exam_all()은 문제를 모두 통과하면 자동으로 프로그램이 종료된다. 만약 exam()을 사용하거나 또는 문제를 종료하고 싶다면 'exam'을 입력할 수 있다. exam을 입력하면 위 그림과 같이 프로그램이 종료된다.
