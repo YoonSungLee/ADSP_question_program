@@ -44,6 +44,6 @@ exam() 함수는 모든 문제에서 복원추출로 문제를 뽑아 무한적�
 <img src="https://i.imgur.com/BQTyacs.png" width="100%"> 만약 pycharm 환경에서 프로그램을 실행시키고 싶다면 ADSP_question_program.py 파일을 실행한다. 위의 그림과 같이 프로그램을 실행시킬 수 있으며, 원하는 함수의 주석(#)을 풀고 프로그램을 실행시키면 된다.
 <br><br>
 
-### Comments
+# Comments
 
 만약 해당 프로그램에 관하여 문의사항이 있으면, 해당 repository의 Issue 또는 이메일(nowhere3070@naver.com)로 문의해주길 바란다.
